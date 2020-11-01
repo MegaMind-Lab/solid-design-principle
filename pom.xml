@@ -24,7 +24,31 @@
         <module>srp</module>
         <module>ocp</module>
         <module>lsp</module>
+        <module>isp</module>
+        <module>dip</module>
     </modules>
+
+    <dependencies>
+        <!-- junit-jupiter-api -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.7.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.10.19</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>javax.mail-api</artifactId>
+            <version>1.6.2</version>
+        </dependency>
+
+    </dependencies>
 
 
 </project>
